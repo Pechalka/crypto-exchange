@@ -1,0 +1,59 @@
+.order-book {
+  background: #1a2035;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.order-book h3 {
+  margin-bottom: 15px;
+  color: #00c087;
+}
+
+.orders-table {
+  background: #0d1421;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.table-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 15px;
+  background: #2a2f3b;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.table-body {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.order-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 12px 15px;
+  border-bottom: 1px solid #2a2f3b;
+  font-size: 14px;
+}
+
+.order-row:last-child {
+  border-bottom: none;
+}
+
+.side.buy {
+  color: #00c087;
+  font-weight: bold;
+}
+
+.side.sell {
+  color: #ff4d4d;
+  font-weight: bold;
+}
+
+.no-orders {
+  padding: 40px;
+  text-align: center;
+  color: #8a8f9d;
+  font-style: italic;
+}
