@@ -8,6 +8,7 @@ const isDev = process.env?.NODE_ENV !== 'production';
 export default defineConfig({
   plugins: [react()],
   // base: isDev ? "/" : "/admin/",
+   base: '/crypto/', 
   esbuild: {
     loader: 'jsx',
   },

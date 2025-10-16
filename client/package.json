@@ -2,14 +2,18 @@
   "name": "crypto-exchange",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://github.com/Pechalka/crypto-exchange",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
